@@ -23,8 +23,6 @@ if keyboard_check(vk_left) {
 } else if keyboard_check(vk_down){
 	facing = Face.backward
 	y += 5;
-} else {
-	facing = Face.forward
 }
 
 if keyboard_check(vk_space) && canShoot {
