@@ -183,10 +183,26 @@
             }
         },
         {
+            "Key": "8715811a-0203-4bdb-8956-dabac09d3266",
+            "Value": {
+                "id": "3f840396-8d25-4549-94bb-62a98812e74a",
+                "resourcePath": "objects\\obj_wallVBreakable\\obj_wallVBreakable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "896596d4-26f9-433e-b529-2bfa729fa9cb",
             "Value": {
                 "id": "4fe7169d-566a-46d0-8b35-3d17e157f3f2",
                 "resourcePath": "objects\/obj_snowball\/obj_snowball.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "93bffa60-52e5-40bc-b003-3a855d3ca1b5",
+            "Value": {
+                "id": "efe8c242-4094-40fc-9f2d-ccdb35506421",
+                "resourcePath": "objects\\obj_wallHBreakable\\obj_wallHBreakable.yy",
                 "resourceType": "GMObject"
             }
         },
