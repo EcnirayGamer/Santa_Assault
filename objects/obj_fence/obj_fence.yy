@@ -1,8 +1,8 @@
 {
-    "id": "bd4320fb-6911-46a5-94c7-4764cfd9b620",
+    "id": "ba9894f2-69e4-46fa-9709-7a6738530ed5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_wallH",
+    "name": "obj_fence",
     "eventList": [
         
     ],
@@ -23,7 +23,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": false,
-    "spriteId": "ee54b5b9-c2b9-4279-81b7-cd99e9cc0f7d",
+    "solid": true,
+    "spriteId": "8d62ba2a-18b8-462e-8bdb-5a58425e608a",
     "visible": true
 }

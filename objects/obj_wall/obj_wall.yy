@@ -2,7 +2,7 @@
     "id": "7d681c05-93f4-4605-bc4c-d6802d3aa094",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_wallV",
+    "name": "obj_wall",
     "eventList": [
         
     ],
@@ -52,7 +52,7 @@
     ],
     "physicsStartAwake": true,
     "properties": null,
-    "solid": false,
+    "solid": true,
     "spriteId": "4cf039d0-c8d2-4ef4-94f1-a1f89ca50de2",
     "visible": true
 }
