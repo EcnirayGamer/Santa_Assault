@@ -3,5 +3,6 @@
 /// @DnDHash : 14C14A39
 /// @DnDArgument : "xpos" "-1248"
 /// @DnDArgument : "objectid" "obj_loadingEnd"
-/// @DnDSaveInfo : "objectid" "78930b45-5568-4615-8029-c53d2cf8b94e"
-instance_create_layer(-1248, 0, "Instances", obj_loadingEnd);
+/// @DnDArgument : "layer" ""Loading""
+/// @DnDSaveInfo : "objectid" "85965371-c16d-4e9f-896e-bc8338e1f87b"
+instance_create_layer(-1248, 0, "Loading", obj_loadingEnd);

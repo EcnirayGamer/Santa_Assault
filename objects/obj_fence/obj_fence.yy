@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_fence",
     "eventList": [
-        
+        {
+            "id": "725679c8-e08d-4d07-bcbf-f3d9a37a4c3d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "ba9894f2-69e4-46fa-9709-7a6738530ed5"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
