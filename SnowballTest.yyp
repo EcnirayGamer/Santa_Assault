@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "16d8a555-dc25-413f-a73b-df8f0c79a22f",
+            "Value": {
+                "id": "4298932a-bb3d-42c3-90a2-ff90f22b75a5",
+                "resourcePath": "sprites\/spr_penguinAngry\/spr_penguinAngry.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "21b5f330-0385-48fe-a0ac-4a4207e64da8",
             "Value": {
                 "id": "6f7bd943-0a46-4797-af26-2bda62fa551b",
@@ -260,6 +268,14 @@
                 "id": "19734cb4-871a-4027-9c19-9e0aa8fe9769",
                 "resourcePath": "objects\/obj_menuText\/obj_menuText.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "94eefe59-f99d-4519-bccd-2892ebb49ea5",
+            "Value": {
+                "id": "5e1b8e47-6018-43bc-a493-b5dc6eda1ae7",
+                "resourcePath": "sprites\/spr_penguinNormal\/spr_penguinNormal.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

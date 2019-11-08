@@ -17,23 +17,22 @@ if(x <= -1216)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4E62D33A
 	/// @DnDParent : 52888453
-	/// @DnDArgument : "code" "startDraw = true;$(13_10)$(13_10)switch (room){$(13_10)	case rm_menu:	levelNumber = "1";$(13_10)					levelEnemies = "1"; $(13_10)					nextRoom = rm_levelOne;$(13_10)					break;$(13_10)}$(13_10)$(13_10)//draw_set_halign(fa_center);$(13_10)"
+	/// @DnDArgument : "code" "startDraw = true;$(13_10)$(13_10)switch (room){$(13_10)	case rm_menu:	levelNumber = "1";$(13_10)					levelEnemyCount = 2; $(13_10)					nextRoom = rm_levelOne;$(13_10)					levelEnemies[1,0] = spr_penguinNormal;$(13_10)					break;$(13_10)}"
 	startDraw = true;
 	
 	switch (room){
 		case rm_menu:	levelNumber = "1";
-						levelEnemies = "1"; 
+						levelEnemyCount = 2; 
 						nextRoom = rm_levelOne;
+						levelEnemies[1,0] = spr_penguinNormal;
 						break;
 	}
-	
-	//draw_set_halign(fa_center);
 }
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 662F4C90
-/// @DnDArgument : "code" "if (startFade)$(13_10){$(13_10)	text_alpha -= .01$(13_10)	if (text_alpha == 0)$(13_10)	{$(13_10)		text_alpha = 1;$(13_10)		room_goto(nextRoom);$(13_10)	}$(13_10)}"
+/// @DnDArgument : "code" "if (startFade)$(13_10){$(13_10)	text_alpha -= .01$(13_10)	if (text_alpha == 0)$(13_10)	{$(13_10)		text_alpha = 1;$(13_10)		room_goto(nextRoom);$(13_10)	}$(13_10)}$(13_10)$(13_10)"
 if (startFade)
 {
 	text_alpha -= .01
