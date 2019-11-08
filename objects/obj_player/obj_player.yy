@@ -63,6 +63,16 @@
             "enumb": 0,
             "eventtype": 8,
             "m_owner": "d437afd5-5f3f-495b-adcf-d6df5f5f0aa4"
+        },
+        {
+            "id": "68d07a43-af94-4781-8e9a-52f43beacfc2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "d437afd5-5f3f-495b-adcf-d6df5f5f0aa4"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -81,7 +91,36 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "819595f9-5165-46f8-84ce-6dd6a549db05",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "upgrades.none",
+            "varName": "curr_upgrades",
+            "varType": 4
+        },
+        {
+            "id": "4a89323b-3a73-44c1-bc7f-0e78f2854814",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "upgradesShots",
+            "varType": 1
+        }
+    ],
     "solid": true,
     "spriteId": "593b5634-0f83-43c0-af03-03ee25f4dec0",
     "visible": true
