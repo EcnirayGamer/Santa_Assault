@@ -6,6 +6,13 @@
 sprite_index = spr_startButton;
 image_index = 0;
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 218DEB83
+/// @DnDArgument : "soundid" "snd_clickUp"
+/// @DnDSaveInfo : "soundid" "9b47b286-bf51-4d8b-8fdc-9aabe9c709f6"
+audio_play_sound(snd_clickUp, 0, 0);
+
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 20EFFE8F

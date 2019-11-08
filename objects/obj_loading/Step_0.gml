@@ -32,13 +32,14 @@ if(x <= -1216)
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 662F4C90
-/// @DnDArgument : "code" "if (startFade)$(13_10){$(13_10)	text_alpha -= .01$(13_10)	if (text_alpha == 0)$(13_10)	{$(13_10)		text_alpha = 1;$(13_10)		room_goto(nextRoom);$(13_10)	}$(13_10)}$(13_10)$(13_10)"
+/// @DnDArgument : "code" "if (startFade)$(13_10){$(13_10)	text_alpha -= .01$(13_10)	if (text_alpha == 0)$(13_10)	{$(13_10)		text_alpha = 1;$(13_10)		audio_stop_all();$(13_10)		room_goto(nextRoom);$(13_10)	}$(13_10)}$(13_10)$(13_10)"
 if (startFade)
 {
 	text_alpha -= .01
 	if (text_alpha == 0)
 	{
 		text_alpha = 1;
+		audio_stop_all();
 		room_goto(nextRoom);
 	}
 }
