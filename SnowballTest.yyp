@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "42dccec8-a09b-4c68-aa92-be1aaa6f3955",
+            "Value": {
+                "id": "89eaa251-82ac-4f46-b7c4-e22ff283ad0a",
+                "resourcePath": "objects\\obj_heatSeeking\\obj_heatSeeking.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "439d9923-0cb4-43b9-9aa8-62dd92bc7298",
             "Value": {
                 "id": "b37c00b1-3ce6-43e8-9b33-65a8247436af",
@@ -295,10 +303,26 @@
             }
         },
         {
+            "Key": "79c9f77f-4eac-45fa-a0dc-10b7efb2e282",
+            "Value": {
+                "id": "99fe7e68-7b0e-4afd-a8e5-245f575dc538",
+                "resourcePath": "views\\79c9f77f-4eac-45fa-a0dc-10b7efb2e282.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7d681c05-93f4-4605-bc4c-d6802d3aa094",
             "Value": {
                 "id": "8385dd55-1c8d-4c19-af3e-015f887f8022",
                 "resourcePath": "objects\/obj_wall\/obj_wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7e679fe1-18aa-497b-89a7-05acfe23dbd3",
+            "Value": {
+                "id": "c1bc1fdd-2b92-4bd5-a614-5cd9a5b971cc",
+                "resourcePath": "objects\\obj_enemy1\\obj_enemy1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -355,6 +379,14 @@
             "Value": {
                 "id": "5e1b8e47-6018-43bc-a493-b5dc6eda1ae7",
                 "resourcePath": "sprites\/spr_penguinNormal\/spr_penguinNormal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "95ba36ef-b667-489c-9e5a-336bf80877d3",
+            "Value": {
+                "id": "5668743d-a430-4c83-a3db-637b9688e329",
+                "resourcePath": "sprites\\spr_heatSeekingU\\spr_heatSeekingU.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -540,6 +572,14 @@
                 "id": "b6bcd02a-6626-419c-a57d-8ccf73dd926e",
                 "resourcePath": "sprites\/spr_BFS\/spr_BFS.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e6937183-2b36-4a8a-8980-d80286debbcd",
+            "Value": {
+                "id": "fb64d0f6-cd95-4980-9be3-179173211f60",
+                "resourcePath": "objects\\obj_heatSeekingUpgrade\\obj_heatSeekingUpgrade.yy",
+                "resourceType": "GMObject"
             }
         },
         {
