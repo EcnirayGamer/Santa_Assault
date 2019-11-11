@@ -4,3 +4,4 @@ enum upgrades {
 	fastBall,
 	heatSeeking,
 }
+health = 100
