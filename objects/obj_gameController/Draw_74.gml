@@ -1,6 +1,7 @@
 /// @DnDAction : YoYo Games.Drawing.Draw_Healthbar
 /// @DnDVersion : 1
-/// @DnDHash : 7E1BCBDA
+/// @DnDHash : 60BC0C9A
+/// @DnDComment : maybe check if debug is visible before $(13_10)displaying?
 /// @DnDArgument : "x1" "100"
 /// @DnDArgument : "y1" "20"
 /// @DnDArgument : "x2" "500"
