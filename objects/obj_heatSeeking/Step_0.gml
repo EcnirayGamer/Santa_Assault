@@ -8,6 +8,7 @@ if (!lockedOn)
 		if (distance_to_object(obj_enemy1) <= 200 && !collision_line(x, y, currentTarget.x, currentTarget.y, obj_wallBreakable, true, false))
 		{
 			targeting = true;
+			image_speed = 30;
 			pointTo = point_direction(x, y, currentTarget.x, currentTarget.y);
 		}
 	} else
