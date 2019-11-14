@@ -8,3 +8,5 @@ else
 }
 
 speed = 5;
+bounceCount = 0;
+maxBounceCount = 1;
