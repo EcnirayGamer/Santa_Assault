@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "3a601462-81dc-41a0-9408-2321d9c5b7dc",
+            "Value": {
+                "id": "f694c761-7193-4374-a358-70a63c659ce9",
+                "resourcePath": "objects\\obj_enemySnowball\\obj_enemySnowball.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3e5e4b28-0da0-4d5a-b39a-37cd9246ab25",
             "Value": {
                 "id": "00b67aa0-213e-4d0e-8108-5c05cb0631a1",
@@ -346,7 +354,7 @@
             "Key": "7e679fe1-18aa-497b-89a7-05acfe23dbd3",
             "Value": {
                 "id": "c1bc1fdd-2b92-4bd5-a614-5cd9a5b971cc",
-                "resourcePath": "objects\/obj_enemy1\/obj_enemy1.yy",
+                "resourcePath": "objects\\obj_penguin1\\obj_penguin1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -460,6 +468,14 @@
                 "id": "7781a221-4f37-432e-8f26-909707b41855",
                 "resourcePath": "fonts\/fnt_menu\/fnt_menu.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "a4fc9fc1-500d-4950-a419-f2d7dcd8dd87",
+            "Value": {
+                "id": "3ca241f3-d0b9-4430-8e29-ccba93ad7709",
+                "resourcePath": "objects\\obj_seal1\\obj_seal1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
