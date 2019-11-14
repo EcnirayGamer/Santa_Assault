@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "e6fb9032-e67f-49b4-92e9-c08f952f365c",
+            "Value": {
+                "id": "2c3280a1-d7eb-40b4-95b7-eff7e3e11394",
+                "resourcePath": "sprites\\spr_infiniButton\\spr_infiniButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e82db034-1974-4754-a24c-58a16412d4c8",
             "Value": {
                 "id": "a20e7b11-92ca-4c0e-bbe5-4545913f4eb8",
@@ -668,6 +676,14 @@
                 "id": "3e0fa729-329c-4674-bb40-3791f6d265df",
                 "resourcePath": "views\/efbd0c64-566b-4b92-bdb3-592cefe44625.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f23154d3-cc15-4843-a327-eed98564a696",
+            "Value": {
+                "id": "b80ed55d-6b74-46d1-9b08-491d7ef6a3f2",
+                "resourcePath": "objects\\obj_infiniButton\\obj_infiniButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {

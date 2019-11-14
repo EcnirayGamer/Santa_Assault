@@ -4,5 +4,3 @@ targeting = false
 lockedOn = false;
 pointTo = 0;
 --obj_player.upgradesShots;
-
-draw_set_color(c_black)

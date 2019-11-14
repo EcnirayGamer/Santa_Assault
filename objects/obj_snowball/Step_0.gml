@@ -1,9 +1,3 @@
-if (mouse_check_button_pressed(mb_right) && global.debug)
-{
-	moving = true;
-	speed = 0;
-}
-
 if (moving)
 {
 	x = mouse_x;
