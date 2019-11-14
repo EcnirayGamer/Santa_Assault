@@ -134,6 +134,20 @@
             "value": "1",
             "varName": "maxBounceCount",
             "varType": 1
+        },
+        {
+            "id": "d37ee590-5e55-4d6e-b2b9-00170d458f47",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "damage",
+            "varType": 1
         }
     ],
     "solid": false,

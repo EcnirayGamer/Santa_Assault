@@ -1,14 +1,14 @@
 {
-    "id": "a4fc9fc1-500d-4950-a419-f2d7dcd8dd87",
+    "id": "2525cb66-f08a-43ca-974a-f2df9e0bf984",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_seal1",
+    "name": "obj_penguin2",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "7e679fe1-18aa-497b-89a7-05acfe23dbd3",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

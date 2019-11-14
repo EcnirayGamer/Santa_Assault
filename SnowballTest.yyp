@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "2525cb66-f08a-43ca-974a-f2df9e0bf984",
+            "Value": {
+                "id": "2237b2d7-1ec4-4613-8c67-520ecb4f3f60",
+                "resourcePath": "objects\\obj_penguin2\\obj_penguin2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2780a9c3-e859-42eb-bfdc-e43522074131",
             "Value": {
                 "id": "79d23b2e-ccfa-46a4-afec-9d7ba2765e66",
