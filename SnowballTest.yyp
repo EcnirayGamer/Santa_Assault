@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "11f6d213-c936-4c6c-a157-2b5e87701d03",
+            "Value": {
+                "id": "57623352-6222-4224-b7fd-f76bf3e8011e",
+                "resourcePath": "objects\\obj_marker\\obj_marker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "12e49172-373b-46b9-aa6a-2be343d0b80c",
             "Value": {
                 "id": "5c383424-3acb-4203-b9e4-c7aaa90a2875",
