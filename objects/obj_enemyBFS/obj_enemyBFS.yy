@@ -1,28 +1,38 @@
 {
-    "id": "7e679fe1-18aa-497b-89a7-05acfe23dbd3",
+    "id": "d6ef9cc7-963a-4b92-8ba1-63526c56c8e4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_enemy1",
+    "name": "obj_enemyBFS",
     "eventList": [
         {
-            "id": "5ae2c38a-cf9a-419e-b8b3-9adc1206b6be",
+            "id": "9602832f-10c9-4e2a-9848-00982980ee8a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "d437afd5-5f3f-495b-adcf-d6df5f5f0aa4",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "d6ef9cc7-963a-4b92-8ba1-63526c56c8e4"
+        },
+        {
+            "id": "1dd49e07-2f6d-4e13-bdb6-b580ff4ce569",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "7e679fe1-18aa-497b-89a7-05acfe23dbd3"
+            "eventtype": 0,
+            "m_owner": "d6ef9cc7-963a-4b92-8ba1-63526c56c8e4"
         },
         {
-            "id": "f730837f-b5d8-46ca-b1ae-6199164e7ea2",
+            "id": "98d9d84e-c87b-4a4f-9d03-8957534b7f87",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "IsDnD": false,
+            "collisionObjectId": "7d681c05-93f4-4605-bc4c-d6802d3aa094",
             "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "7e679fe1-18aa-497b-89a7-05acfe23dbd3"
+            "eventtype": 4,
+            "m_owner": "d6ef9cc7-963a-4b92-8ba1-63526c56c8e4"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +53,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "22d73b84-9d7b-4075-8a0c-9c1e33e30a20",
+            "id": "5a15de9b-ba83-44ea-b179-697d3431c0c9",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -52,12 +62,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
-            "varName": "enemy_health",
+            "value": "-20",
+            "varName": "damage",
             "varType": 1
         }
     ],
     "solid": false,
-    "spriteId": "94eefe59-f99d-4519-bccd-2892ebb49ea5",
+    "spriteId": "e6293172-f994-426f-a1dc-2eba360637ab",
     "visible": true
 }

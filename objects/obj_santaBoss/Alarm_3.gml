@@ -1,0 +1,1 @@
+canShootDefence = true

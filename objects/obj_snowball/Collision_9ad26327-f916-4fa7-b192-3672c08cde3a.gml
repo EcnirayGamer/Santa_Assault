@@ -1,0 +1,1 @@
+other.bossHealth = other.bossHealth - damage
