@@ -8,7 +8,7 @@
             "id": "dd158136-4b7c-4158-b5bc-c1427d15aa03",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 87,
             "eventtype": 5,
@@ -18,7 +18,7 @@
             "id": "3fe4450a-d1a1-44fc-9a0e-d18985606e6e",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 65,
             "eventtype": 5,
@@ -28,7 +28,7 @@
             "id": "756fdb3d-1937-4c74-bfcc-a46faf7980db",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 68,
             "eventtype": 5,
@@ -38,7 +38,7 @@
             "id": "ae9bca70-0f10-4e86-bceb-465d52a806e5",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 83,
             "eventtype": 5,
@@ -72,6 +72,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "d437afd5-5f3f-495b-adcf-d6df5f5f0aa4"
+        },
+        {
+            "id": "1d1c504b-f044-47e8-9843-a8caab2a6a31",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 5,
             "m_owner": "d437afd5-5f3f-495b-adcf-d6df5f5f0aa4"
         }
     ],
@@ -122,6 +132,6 @@
         }
     ],
     "solid": true,
-    "spriteId": "593b5634-0f83-43c0-af03-03ee25f4dec0",
+    "spriteId": "439d9923-0cb4-43b9-9aa8-62dd92bc7298",
     "visible": true
 }

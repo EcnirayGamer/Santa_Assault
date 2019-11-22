@@ -8,3 +8,9 @@ if(upgradesShots == 0){
 if(health <=0){
 	instance_destroy(self)
 }
+
+if (sprite_index != setSprite)
+{
+	sprite_index = setSprite
+	image_index = 0;
+}

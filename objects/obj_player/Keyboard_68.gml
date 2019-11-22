@@ -1,89 +1,28 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 179270D6
-/// @DnDArgument : "code" "tempRight = place_free(x + 5, y);"
 tempRight = place_free(x + 5, y);
 
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 6E404FBE
-/// @DnDArgument : "var" "global.num_enemies"
 if(global.num_enemies == 0)
 {
-	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-	/// @DnDVersion : 1
-	/// @DnDHash : 3FC11125
-	/// @DnDParent : 6E404FBE
-	/// @DnDArgument : "x" "0"
-	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "0"
-	/// @DnDArgument : "y_relative" "1"
 	x += 0;
 	y += 0;
 }
 
-/// @DnDAction : YoYo Games.Common.Else
-/// @DnDVersion : 1
-/// @DnDHash : 6D043459
 else
 {
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 58854D09
-	/// @DnDParent : 6D043459
-	/// @DnDArgument : "var" "tempRight"
-	/// @DnDArgument : "value" "true"
 	if(tempRight == true)
 	{
-		/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
-		/// @DnDVersion : 1
-		/// @DnDHash : 25F207F8
-		/// @DnDParent : 58854D09
-		/// @DnDArgument : "key" "ord("W") "
-		/// @DnDArgument : "not" "1"
-		var l25F207F8_0;
-		l25F207F8_0 = keyboard_check(ord("W") );
-		if (!l25F207F8_0)
+
+		if (!keyboard_check(ord("W")))
 		{
-			/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
-			/// @DnDVersion : 1
-			/// @DnDHash : 55583CE4
-			/// @DnDParent : 25F207F8
-			/// @DnDArgument : "key" "ord("A")"
-			/// @DnDArgument : "not" "1"
-			var l55583CE4_0;
-			l55583CE4_0 = keyboard_check(ord("A"));
-			if (!l55583CE4_0)
+			if (!keyboard_check(ord("A")))
 			{
-				/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
-				/// @DnDVersion : 1
-				/// @DnDHash : 2AE79C9A
-				/// @DnDParent : 55583CE4
-				/// @DnDArgument : "key" "ord("S")"
-				/// @DnDArgument : "not" "1"
-				var l2AE79C9A_0;
-				l2AE79C9A_0 = keyboard_check(ord("S"));
-				if (!l2AE79C9A_0)
+
+				if (!keyboard_check(ord("S")))
 				{
-					/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-					/// @DnDVersion : 1
-					/// @DnDHash : 6037D03A
-					/// @DnDParent : 2AE79C9A
-					/// @DnDArgument : "x" "5"
-					/// @DnDArgument : "x_relative" "1"
-					/// @DnDArgument : "y" "0"
-					/// @DnDArgument : "y_relative" "1"
 					x += 5;
 					y += 0;
 				
-					/// @DnDAction : YoYo Games.Instances.Set_Sprite
-					/// @DnDVersion : 1
-					/// @DnDHash : 35D4B8CF
-					/// @DnDParent : 2AE79C9A
-					/// @DnDArgument : "spriteind" "spr_playerR"
-					/// @DnDSaveInfo : "spriteind" "9e1f65c6-f71f-449e-b04c-6a7b6953eba9"
-					sprite_index = spr_playerR;
-					image_index = 0;
+					setSprite = spr_playerR;
+					image_speed = 1;
 				}
 			}
 		}
