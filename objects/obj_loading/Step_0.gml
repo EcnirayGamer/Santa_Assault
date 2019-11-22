@@ -17,13 +17,14 @@ if(x <= -1216)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4E62D33A
 	/// @DnDParent : 52888453
-	/// @DnDArgument : "code" "startDraw = true;$(13_10)$(13_10)switch (room){$(13_10)	case rm_menu:	levelNumber = 1;$(13_10)					nextRoom = rm_levelOne;$(13_10)					levelEnemies[1,0] = spr_penguinNormal;$(13_10)					break;$(13_10)}"
+	/// @DnDArgument : "code" "startDraw = true;$(13_10)$(13_10)switch (room){$(13_10)	case rm_menu:	levelNumber = 1;$(13_10)					nextRoom = rm_levelOne;$(13_10)					levelEnemies[1,0] = spr_penguinNormal;$(13_10)					levelEnemies[1,1] = spr_penguinNormal;$(13_10)					break;$(13_10)}"
 	startDraw = true;
 	
 	switch (room){
 		case rm_menu:	levelNumber = 1;
 						nextRoom = rm_levelOne;
 						levelEnemies[1,0] = spr_penguinNormal;
+						levelEnemies[1,1] = spr_penguinNormal;
 						break;
 	}
 }

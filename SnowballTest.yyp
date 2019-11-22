@@ -34,7 +34,7 @@
             "Key": "073ddd83-34ee-4c8e-9a29-e7e91b905c86",
             "Value": {
                 "id": "4fa212ae-76bf-48c3-a9e5-06c5be268d18",
-                "resourcePath": "objects\\obj_firePlace\\obj_firePlace.yy",
+                "resourcePath": "objects\/obj_firePlace\/obj_firePlace.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -58,7 +58,7 @@
             "Key": "11f6d213-c936-4c6c-a157-2b5e87701d03",
             "Value": {
                 "id": "57623352-6222-4224-b7fd-f76bf3e8011e",
-                "resourcePath": "objects\\obj_marker\\obj_marker.yy",
+                "resourcePath": "objects\/obj_marker\/obj_marker.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -95,18 +95,10 @@
             }
         },
         {
-            "Key": "22cd4118-1bb5-4d3d-82cc-44df8653fb27",
-            "Value": {
-                "id": "76f6eff9-916f-4f70-9109-f18dd57ec4c7",
-                "resourcePath": "objects\/obj_gameController\/obj_gameController.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2525cb66-f08a-43ca-974a-f2df9e0bf984",
             "Value": {
                 "id": "2237b2d7-1ec4-4613-8c67-520ecb4f3f60",
-                "resourcePath": "objects\\obj_penguin2\\obj_penguin2.yy",
+                "resourcePath": "objects\/obj_penguin2\/obj_penguin2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -186,7 +178,7 @@
             "Key": "3a601462-81dc-41a0-9408-2321d9c5b7dc",
             "Value": {
                 "id": "f694c761-7193-4374-a358-70a63c659ce9",
-                "resourcePath": "objects\\obj_enemySnowball\\obj_enemySnowball.yy",
+                "resourcePath": "objects\/obj_enemySnowball\/obj_enemySnowball.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -242,7 +234,7 @@
             "Key": "46b8e4ee-63c4-4b51-81e5-9b318016e1a4",
             "Value": {
                 "id": "8571359f-deaf-4d6d-8d95-4294fb65b666",
-                "resourcePath": "objects\/obj_top\/obj_top.yy",
+                "resourcePath": "objects\/obj_gameController\/obj_gameController.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -255,10 +247,18 @@
             }
         },
         {
+            "Key": "491458e9-c4e5-448f-b699-ab57400f610e",
+            "Value": {
+                "id": "8fb5a7b7-a1ae-4bc2-a4a0-1c0e83f7b667",
+                "resourcePath": "objects\/obj_info\/obj_info.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4cf039d0-c8d2-4ef4-94f1-a1f89ca50de2",
             "Value": {
                 "id": "5d0edd5f-06a6-4a36-b48b-10ad56aaf874",
-                "resourcePath": "sprites\/spr_wallV\/spr_wallV.yy",
+                "resourcePath": "sprites\/spr_wall\/spr_wall.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -362,7 +362,7 @@
             "Key": "7a7cbd25-4503-4211-9cf2-5a44b40cef33",
             "Value": {
                 "id": "520a4d35-b47d-4783-bde4-a03629c5ee68",
-                "resourcePath": "sprites\\spr_santaBoss\\spr_santaBoss.yy",
+                "resourcePath": "sprites\/spr_santaBoss\/spr_santaBoss.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -378,7 +378,7 @@
             "Key": "7e679fe1-18aa-497b-89a7-05acfe23dbd3",
             "Value": {
                 "id": "c1bc1fdd-2b92-4bd5-a614-5cd9a5b971cc",
-                "resourcePath": "objects\\obj_penguin1\\obj_penguin1.yy",
+                "resourcePath": "objects\/obj_penguin1\/obj_penguin1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -418,7 +418,7 @@
             "Key": "8b73541b-95f7-4698-87a1-9e61a05c4102",
             "Value": {
                 "id": "afecdab1-0d23-4a20-9b3b-a982dee6a296",
-                "resourcePath": "objects\\obj_enemyHeatSeeking\\obj_enemyHeatSeeking.yy",
+                "resourcePath": "objects\/obj_enemyHeatSeeking\/obj_enemyHeatSeeking.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -442,7 +442,7 @@
             "Key": "9463ae3a-3fda-4532-b183-c0868f7d2718",
             "Value": {
                 "id": "22051fa3-8e50-4120-8316-69cb47828dde",
-                "resourcePath": "rooms\\rm_BossFight\\rm_BossFight.yy",
+                "resourcePath": "rooms\/rm_BossFight\/rm_BossFight.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -490,7 +490,7 @@
             "Key": "9a486d2e-b72d-4413-ac25-301a7edcb237",
             "Value": {
                 "id": "e8db4ad4-006b-4c8b-941c-7823987bd40a",
-                "resourcePath": "sprites\\spr_campFire\\spr_campFire.yy",
+                "resourcePath": "sprites\/spr_campFire\/spr_campFire.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -522,7 +522,7 @@
             "Key": "a4fc9fc1-500d-4950-a419-f2d7dcd8dd87",
             "Value": {
                 "id": "3ca241f3-d0b9-4430-8e29-ccba93ad7709",
-                "resourcePath": "objects\\obj_seal1\\obj_seal1.yy",
+                "resourcePath": "objects\/obj_seal1\/obj_seal1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -586,7 +586,7 @@
             "Key": "c373d241-4897-4150-b999-62df120a76b6",
             "Value": {
                 "id": "b6cbe8a2-4317-43dd-84c3-482cce0c237e",
-                "resourcePath": "objects\\obj_santaBoss\\obj_santaBoss.yy",
+                "resourcePath": "objects\/obj_santaBoss\/obj_santaBoss.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -634,7 +634,7 @@
             "Key": "d6ef9cc7-963a-4b92-8ba1-63526c56c8e4",
             "Value": {
                 "id": "8fb03c1d-0e8b-460e-9a46-68f63361e0f9",
-                "resourcePath": "objects\\obj_enemyBFS\\obj_enemyBFS.yy",
+                "resourcePath": "objects\/obj_enemyBFS\/obj_enemyBFS.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -714,7 +714,7 @@
             "Key": "e6fb9032-e67f-49b4-92e9-c08f952f365c",
             "Value": {
                 "id": "2c3280a1-d7eb-40b4-95b7-eff7e3e11394",
-                "resourcePath": "sprites\\spr_infiniButton\\spr_infiniButton.yy",
+                "resourcePath": "sprites\/spr_infiniButton\/spr_infiniButton.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -762,7 +762,7 @@
             "Key": "f23154d3-cc15-4843-a327-eed98564a696",
             "Value": {
                 "id": "b80ed55d-6b74-46d1-9b08-491d7ef6a3f2",
-                "resourcePath": "objects\\obj_infiniButton\\obj_infiniButton.yy",
+                "resourcePath": "objects\/obj_infiniButton\/obj_infiniButton.yy",
                 "resourceType": "GMObject"
             }
         },
