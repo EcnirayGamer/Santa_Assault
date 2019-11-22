@@ -1,5 +1,5 @@
 with (other){
-	bossHealth -= 10
+	bossHealth -= 25
 }
 
 instance_destroy();

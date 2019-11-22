@@ -14,7 +14,7 @@ if global.bossStage == Stages.stage1 && canShoot == true {
 	#endregion
 	if(bossHealth <= 0){
 		global.bossStage = Stages.stage2;
-		bossHealth = 150 
+		bossHealth = 350 
 	}
 }
 
@@ -47,7 +47,7 @@ if global.bossStage == Stages.stage2 {
 	}
 	if(bossHealth <= 0){
 		global.bossStage = Stages.stage3;
-		bossHealth = 200 
+		bossHealth = 400 
 	}
 }
 
