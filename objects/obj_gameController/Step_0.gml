@@ -1,9 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 768E4F25
-/// @DnDArgument : "code" "global.num_enemies = instance_number(obj_penguin1) + instance_number(obj_santaBoss)$(13_10)$(13_10)"
-global.num_enemies = instance_number(obj_penguin1) + instance_number(obj_santaBoss)
-
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 /// @DnDVersion : 1
 /// @DnDHash : 7CD9E2E1

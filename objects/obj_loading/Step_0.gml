@@ -17,14 +17,21 @@ if(x <= -1216)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4E62D33A
 	/// @DnDParent : 52888453
-	/// @DnDArgument : "code" "startDraw = true;$(13_10)$(13_10)switch (room){$(13_10)	case rm_menu:	levelNumber = 1;$(13_10)					nextRoom = rm_levelOne;$(13_10)					levelEnemies[1,0] = spr_penguinNormal;$(13_10)					levelEnemies[1,1] = spr_penguinNormal;$(13_10)					break;$(13_10)}"
+	/// @DnDArgument : "code" "startDraw = true;$(13_10)$(13_10)switch (room){$(13_10)	case rm_menu:	$(13_10)					levelNumber = 1;$(13_10)					nextRoom = rm_levelOne;$(13_10)					levelEnemies[1,0] = spr_penguinNormal;$(13_10)					levelEnemies[1,1] = spr_penguinNormal;$(13_10)					break;$(13_10)	case rm_levelOne:	$(13_10)					levelNumber = 2;$(13_10)					nextRoom = rm_levelTwo;$(13_10)					levelEnemies[2,0] = spr_penguinNormal;$(13_10)					levelEnemies[2,1] = spr_penguinAngry;$(13_10)					break;$(13_10)}"
 	startDraw = true;
 	
 	switch (room){
-		case rm_menu:	levelNumber = 1;
+		case rm_menu:	
+						levelNumber = 1;
 						nextRoom = rm_levelOne;
 						levelEnemies[1,0] = spr_penguinNormal;
 						levelEnemies[1,1] = spr_penguinNormal;
+						break;
+		case rm_levelOne:	
+						levelNumber = 2;
+						nextRoom = rm_levelTwo;
+						levelEnemies[2,0] = spr_penguinNormal;
+						levelEnemies[2,1] = spr_penguinAngry;
 						break;
 	}
 }

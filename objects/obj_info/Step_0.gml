@@ -1,0 +1,1 @@
+global.num_enemies = instance_number(obj_penguin1) + instance_number(obj_santaBoss)
