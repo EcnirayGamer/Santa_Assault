@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "073ddd83-34ee-4c8e-9a29-e7e91b905c86",
+            "Value": {
+                "id": "4fa212ae-76bf-48c3-a9e5-06c5be268d18",
+                "resourcePath": "objects\\obj_firePlace\\obj_firePlace.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "07af3b81-8ef7-4164-8bb9-c40d970e0404",
             "Value": {
                 "id": "e658bc88-eb4c-43aa-9d12-69378d0f3261",
@@ -475,6 +483,14 @@
             "Value": {
                 "id": "10e51b91-0616-47b7-a2d0-7441b95f50e6",
                 "resourcePath": "sprites\/spr_fastBall\/spr_fastBall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9a486d2e-b72d-4413-ac25-301a7edcb237",
+            "Value": {
+                "id": "e8db4ad4-006b-4c8b-941c-7823987bd40a",
+                "resourcePath": "sprites\\spr_campFire\\spr_campFire.yy",
                 "resourceType": "GMSprite"
             }
         },
