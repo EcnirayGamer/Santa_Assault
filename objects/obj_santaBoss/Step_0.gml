@@ -1,3 +1,5 @@
+if(instance_exists(obj_player)){
+
 if global.bossStage == Stages.stage1 && canShoot == true {
 	canShoot = false
 	alarm[0] = 250
@@ -122,3 +124,9 @@ if distance_to_object(obj_player) <= 50  {
 	
 }
 	
+
+
+
+
+}
+
