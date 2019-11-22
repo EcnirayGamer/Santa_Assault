@@ -1,6 +1,6 @@
 if global.bossStage == Stages.stage1 && canShoot == true {
 	canShoot = false
-	alarm[0] = 250
+	alarm[0] = 150
 	#region 
 		with instance_create_layer(x,y,"instances", obj_enemySnowball) {
 			direction = 225;
@@ -14,14 +14,14 @@ if global.bossStage == Stages.stage1 && canShoot == true {
 	#endregion
 	if(bossHealth <= 0){
 		global.bossStage = Stages.stage2;
-		bossHealth = 350 
+		bossHealth = 250 
 	}
 }
 
 if global.bossStage == Stages.stage2 {
 	if canShoot {
 		canShoot = false
-		alarm[0] = 200
+		alarm[0] = 120
 		#region
 			with instance_create_layer(x,y,"instances", obj_enemySnowball) {
 				direction = 225;
@@ -42,19 +42,19 @@ if global.bossStage == Stages.stage2 {
 	}
 	if canShootBFS {
 		canShootBFS = false
-		alarm[1] = 210
+		alarm[1] = 190
 		instance_create_layer(x,y,"instances", obj_enemyBFS)
 	}
 	if(bossHealth <= 0){
 		global.bossStage = Stages.stage3;
-		bossHealth = 400 
+		bossHealth = 300 
 	}
 }
 
 if global.bossStage == Stages.stage3 {
 	if canShoot {
 		canShoot = false
-		alarm[0] = 150
+		alarm[0] = 90
 		#region
 			with instance_create_layer(x,y,"instances", obj_enemySnowball) {
 				direction = 210;
@@ -81,7 +81,7 @@ if global.bossStage == Stages.stage3 {
 	}
 	if canShootBFS {
 		canShootBFS = false
-		alarm[1] = 160
+		alarm[1] = 120
 		#region
 			with instance_create_layer(x,y,"instances", obj_enemyBFS) {
 				direction = 225;
@@ -94,7 +94,7 @@ if global.bossStage == Stages.stage3 {
 	}
 	if canShootHeatSeeking {
 		canShootHeatSeeking = false
-		alarm[2] = 120
+		alarm[2] = 110
 		with instance_create_layer(x,y,"instances", obj_enemyHeatSeeking){
 			direction = 200
 		}
