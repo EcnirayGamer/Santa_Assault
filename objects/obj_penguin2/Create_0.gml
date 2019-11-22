@@ -1,6 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 73854568
-/// @DnDArgument : "code" "step = 2$(13_10)throw_count = 0$(13_10)"
-step = 2
+/// @DnDArgument : "code" "walk_speed = 2$(13_10)throw_count = 0$(13_10)throwing = false$(13_10)waiting = false$(13_10)"
+walk_speed = 2
 throw_count = 0
+throwing = false
+waiting = false
