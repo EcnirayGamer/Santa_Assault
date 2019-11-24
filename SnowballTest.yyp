@@ -170,7 +170,7 @@
             "Key": "377db7d0-f896-4222-9854-747648b145eb",
             "Value": {
                 "id": "7032fb5c-74f3-4a62-8186-be4e50dddd25",
-                "resourcePath": "rooms\\rm_levelThree\\rm_levelThree.yy",
+                "resourcePath": "rooms\/rm_levelThree\/rm_levelThree.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -204,6 +204,14 @@
                 "id": "4a6e9171-3e4b-4a58-843e-d7cb862701c3",
                 "resourcePath": "fonts\/fnt_debug\/fnt_debug.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "4248fc26-eb46-46c9-abde-44a5d9c60b82",
+            "Value": {
+                "id": "a7595545-63bd-4f98-8b6e-c1e7cabcc614",
+                "resourcePath": "sprites\/spr_help\/spr_help.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -303,6 +311,14 @@
             }
         },
         {
+            "Key": "5b49b51c-3909-41b7-938e-8e5fede7b1a2",
+            "Value": {
+                "id": "3d93cbed-2300-41a1-bc59-9face3f2070e",
+                "resourcePath": "rooms\/rm_help\/rm_help.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "5bf7c631-bf18-4a21-9941-31f2e3defcf6",
             "Value": {
                 "id": "fc706da4-8723-4e97-b372-994ad985a957",
@@ -319,14 +335,6 @@
             }
         },
         {
-            "Key": "5ce709e6-a1f9-465a-a21f-9f819b35dcc7",
-            "Value": {
-                "id": "fb4acbfa-a718-4ca0-b958-cb4db75b29f2",
-                "resourcePath": "sprites\\spr_backgroundEnd\\spr_backgroundEnd.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "6143bc2b-efcd-49e6-bbb0-6425ed69d7fe",
             "Value": {
                 "id": "410091bd-d6c4-448e-9a0c-1e0d7bb10434",
@@ -339,6 +347,14 @@
             "Value": {
                 "id": "8009ae12-5544-4a37-a4d1-2e707d337dcb",
                 "resourcePath": "sprites\/spr_top\/spr_top.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "62eead9d-cff7-4c2a-86be-c461ca65c7c1",
+            "Value": {
+                "id": "2dc70d40-2fb6-4dbc-8d5a-612f9f2544e2",
+                "resourcePath": "sprites\/spr_backgroundEnd\/spr_backgroundEnd.yy",
                 "resourceType": "GMSprite"
             }
         },
