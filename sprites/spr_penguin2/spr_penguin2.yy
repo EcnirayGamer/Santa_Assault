@@ -2,7 +2,7 @@
     "id": "16d8a555-dc25-413f-a73b-df8f0c79a22f",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_penguinAngry",
+    "name": "spr_penguin2",
     "For3D": false,
     "HTile": false,
     "VTile": false,
