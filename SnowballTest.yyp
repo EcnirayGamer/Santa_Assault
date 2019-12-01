@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "860ec44d-7ce7-4b5a-a680-5e77e48a177f",
+            "Value": {
+                "id": "cc783340-8f8f-4d52-b0b1-86255daaadcc",
+                "resourcePath": "paths\\path0_penguin3\\path0_penguin3.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "8715811a-0203-4bdb-8956-dabac09d3266",
             "Value": {
                 "id": "3f840396-8d25-4549-94bb-62a98812e74a",
@@ -562,7 +570,7 @@
             "Key": "a4fc9fc1-500d-4950-a419-f2d7dcd8dd87",
             "Value": {
                 "id": "3ca241f3-d0b9-4430-8e29-ccba93ad7709",
-                "resourcePath": "objects\/obj_seal1\/obj_seal1.yy",
+                "resourcePath": "objects\\obj_penguin3\\obj_penguin3.yy",
                 "resourceType": "GMObject"
             }
         },
