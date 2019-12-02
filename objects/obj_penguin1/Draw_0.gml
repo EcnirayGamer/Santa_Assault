@@ -1,4 +1,12 @@
-/// @DnDAction : YoYo Games.Drawing.Draw_Self
-/// @DnDVersion : 1
-/// @DnDHash : 6066670C
 draw_self();
+
+if (flashAlpha > 0)
+{
+	flashAlpha -= .05;
+	shader_set(shd_hit);
+
+	draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, 
+					image_yscale, image_angle, flashColor, flashAlpha)
+
+	shader_reset();
+}

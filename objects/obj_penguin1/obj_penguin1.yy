@@ -18,7 +18,7 @@
             "id": "f730837f-b5d8-46ca-b1ae-6199164e7ea2",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
@@ -42,6 +42,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 2,
+            "m_owner": "7e679fe1-18aa-497b-89a7-05acfe23dbd3"
+        },
+        {
+            "id": "05391d8e-fafa-4a4e-af36-691bf15c0e1d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "896596d4-26f9-433e-b529-2bfa729fa9cb",
+            "enumb": 0,
+            "eventtype": 4,
             "m_owner": "7e679fe1-18aa-497b-89a7-05acfe23dbd3"
         }
     ],
@@ -75,6 +85,34 @@
             "value": "30",
             "varName": "enemy_health",
             "varType": 1
+        },
+        {
+            "id": "dd5eaca1-6c82-4c6e-9726-c0c94a113747",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "flashAlpha",
+            "varType": 1
+        },
+        {
+            "id": "5b7ba43c-fe1d-463e-9a53-27f9d78170db",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "c_red",
+            "varName": "flashColor",
+            "varType": 7
         }
     ],
     "solid": false,
