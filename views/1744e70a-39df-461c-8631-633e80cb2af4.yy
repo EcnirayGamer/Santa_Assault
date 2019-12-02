@@ -18,7 +18,7 @@
         "f398dee9-c554-433e-8a23-15daa84bf466"
     ],
     "filterType": "GMSprite",
-    "folderName": "Penguins",
+    "folderName": "Penguins_Walking",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
