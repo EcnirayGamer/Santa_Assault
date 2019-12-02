@@ -53,6 +53,16 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "7e679fe1-18aa-497b-89a7-05acfe23dbd3"
+        },
+        {
+            "id": "e600b042-9669-4a3d-adbd-4c414ea923f2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 7,
+            "m_owner": "7e679fe1-18aa-497b-89a7-05acfe23dbd3"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -113,6 +123,62 @@
             "value": "c_red",
             "varName": "flashColor",
             "varType": 7
+        },
+        {
+            "id": "df7fce9c-dcac-48c4-8d64-ecda7fb34622",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "false",
+            "varName": "throwing",
+            "varType": 3
+        },
+        {
+            "id": "8d16323f-d3b7-4ed2-9ea2-80244864a6e4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "currSprite",
+            "varType": 5
+        },
+        {
+            "id": "013219dc-dbb6-4131-b0d2-5d182fc1db4e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_penguin1_throwU",
+            "varName": "throwU",
+            "varType": 5
+        },
+        {
+            "id": "289374aa-9c3a-4dac-a664-b29072c42f38",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "spr_penguin1_throwD",
+            "varName": "throwD",
+            "varType": 5
         }
     ],
     "solid": false,
