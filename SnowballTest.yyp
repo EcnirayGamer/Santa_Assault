@@ -74,7 +74,7 @@
             "Key": "16d8a555-dc25-413f-a73b-df8f0c79a22f",
             "Value": {
                 "id": "4298932a-bb3d-42c3-90a2-ff90f22b75a5",
-                "resourcePath": "sprites\\spr_penguin2\\spr_penguin2.yy",
+                "resourcePath": "sprites\\spr_penguin3D\\spr_penguin3D.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -156,6 +156,14 @@
                 "id": "462d7474-f952-4b79-96dc-30990795c052",
                 "resourcePath": "views\/2df28ae5-55a0-4e8f-b18c-1c670487c87d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2e388919-2dea-4db5-a2a9-f5b455d854e0",
+            "Value": {
+                "id": "47ddf991-140a-4f3d-bb3f-6f025e769226",
+                "resourcePath": "sprites\\spr_penguin1L\\spr_penguin1L.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -383,6 +391,14 @@
             }
         },
         {
+            "Key": "70d361fb-cd0f-4ac2-8e07-ccdd3395b5b2",
+            "Value": {
+                "id": "afa53e20-8d95-4373-b730-c0f6599e355c",
+                "resourcePath": "sprites\\spr_penguin1R\\spr_penguin1R.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "715e16e1-d0c7-4068-8295-4b57f2d396fd",
             "Value": {
                 "id": "183c4083-fcab-4cf4-945a-05a5edd35cc2",
@@ -395,6 +411,14 @@
             "Value": {
                 "id": "b85179ca-d6a7-4dd8-97d0-267e0451fc0f",
                 "resourcePath": "sprites\/spr_helpButton\/spr_helpButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7522437e-47af-4ae8-8ca7-e1924f3a5cd5",
+            "Value": {
+                "id": "369b1dfe-1b1c-4268-b3c8-96cbe9d31d37",
+                "resourcePath": "sprites\\spr_penguin1D\\spr_penguin1D.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -730,7 +754,7 @@
             "Key": "d8f6fbdd-1404-4d4b-98e5-4e89124b2801",
             "Value": {
                 "id": "67a50b64-a86d-4476-8731-fff9ac27b8ce",
-                "resourcePath": "sprites\\spri_penguin3\\spri_penguin3.yy",
+                "resourcePath": "sprites\\spr_penguin3U\\spr_penguin3U.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -755,6 +779,14 @@
             "Value": {
                 "id": "74f77a8b-8613-4943-9f49-b9264af13648",
                 "resourcePath": "sprites\\spr_penguin2R\\spr_penguin2R.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e0a75dfb-7cba-429b-9ca9-55c0f10d4401",
+            "Value": {
+                "id": "5836a0fd-5c9f-4750-81c2-6d7efc1c6a42",
+                "resourcePath": "sprites\\spr_penguin3L\\spr_penguin3L.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -852,6 +884,22 @@
                 "id": "b80ed55d-6b74-46d1-9b08-491d7ef6a3f2",
                 "resourcePath": "objects\/obj_infiniButton\/obj_infiniButton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f2c6b363-edbb-445e-a9c3-c4f23ba75edb",
+            "Value": {
+                "id": "8d129569-e29c-463b-b140-c79d0479eece",
+                "resourcePath": "sprites\\spr_penguin1U\\spr_penguin1U.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f398dee9-c554-433e-8a23-15daa84bf466",
+            "Value": {
+                "id": "ec0d80eb-353c-43ea-b25c-7f533309e64a",
+                "resourcePath": "sprites\\spr_penguin3R\\spr_penguin3R.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

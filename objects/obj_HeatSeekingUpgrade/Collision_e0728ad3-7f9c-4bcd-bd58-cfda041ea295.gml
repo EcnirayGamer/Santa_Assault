@@ -8,4 +8,4 @@ if(obj_player.upgradesShots == 0 && obj_player.curr_upgrades == upgrades.none){
 	obj_player.upgradesShots = 3;
 }
 
-instance_destroy();
+instance_destroy()
