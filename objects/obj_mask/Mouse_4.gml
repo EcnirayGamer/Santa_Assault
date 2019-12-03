@@ -2,7 +2,7 @@ if(canShoot == true)
 {
 	
 	switch(obj_player.curr_upgrades){
-		case upgrades.BFS: ballToShoot = obj_BFS;
+		case (upgrades.light): ballToShoot = obj_lightBall;
 		break;
 		case (upgrades.fastBall): ballToShoot = obj_fastBall;
 		break;

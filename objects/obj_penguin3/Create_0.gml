@@ -1,15 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 4F72F9BB
-/// @DnDArgument : "code" "enum states{$(13_10)	onPath,$(13_10)	chasePlayer,$(13_10)	attackPlayer,$(13_10)	returnToPath$(13_10)}$(13_10)$(13_10)state = states.onPath"
-enum states{
-	onPath,
-	chasePlayer,
-	attackPlayer,
-	returnToPath
-}
+/// @DnDArgument : "code" ""
 
-state = states.onPath
 
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1
