@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 2559B4A9
+/// @DnDHash : 74CD3B67
 /// @DnDArgument : "xpos" "-1248"
 /// @DnDArgument : "objectid" "obj_loadingEnd"
 /// @DnDArgument : "layer" ""Loading""
