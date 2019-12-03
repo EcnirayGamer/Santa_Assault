@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_enemyBFS",
     "eventList": [
-        
+        {
+            "id": "aa1190e6-781c-4ae8-b893-e596d73de032",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "d6ef9cc7-963a-4b92-8ba1-63526c56c8e4"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
