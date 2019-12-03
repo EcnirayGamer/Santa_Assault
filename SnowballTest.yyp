@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "211c8d28-74de-44a2-b026-ac82cdfdf421",
+            "Value": {
+                "id": "ef152ec4-fd70-435d-a1f8-9c64d824a941",
+                "resourcePath": "sprites\\spr_playerThrowR\\spr_playerThrowR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "21b5f330-0385-48fe-a0ac-4a4207e64da8",
             "Value": {
                 "id": "6f7bd943-0a46-4797-af26-2bda62fa551b",
@@ -463,6 +471,14 @@
             }
         },
         {
+            "Key": "790355f6-2ea5-4eeb-ac86-ab7b04c9cc85",
+            "Value": {
+                "id": "d3e44db0-b16b-47fd-841b-3d64b70cf7e5",
+                "resourcePath": "sprites\\spr_playerThrowD\\spr_playerThrowD.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7a7cbd25-4503-4211-9cf2-5a44b40cef33",
             "Value": {
                 "id": "520a4d35-b47d-4783-bde4-a03629c5ee68",
@@ -540,6 +556,14 @@
                 "id": "4fe7169d-566a-46d0-8b35-3d17e157f3f2",
                 "resourcePath": "objects\/obj_snowball\/obj_snowball.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8b0575a6-0c5a-45d3-9c0b-0c13e3e82b08",
+            "Value": {
+                "id": "d70cf80e-132f-4095-8f52-107a60336925",
+                "resourcePath": "sprites\\spr_playerThrowU\\spr_playerThrowU.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -700,6 +724,14 @@
                 "id": "cbdce95d-4cf5-42b2-aa6a-4bcf82ca305f",
                 "resourcePath": "views\/b08bc3f3-282d-4e59-9123-fd5e8ca90063.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b21e295a-9762-4507-ad6e-06ae343f1fde",
+            "Value": {
+                "id": "f34e3763-4d91-4613-b164-40d128bee2e3",
+                "resourcePath": "sprites\\spr_playerThrowL\\spr_playerThrowL.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -996,6 +1028,14 @@
                 "id": "df54f38f-fa70-4019-8166-362afb136682",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fa737edb-27da-4675-8be7-40a1fd7728db",
+            "Value": {
+                "id": "2cd2e548-8b90-43c9-9402-5c03900f0a42",
+                "resourcePath": "paths\\path1_penguin3\\path1_penguin3.yy",
+                "resourceType": "GMPath"
             }
         },
         {
