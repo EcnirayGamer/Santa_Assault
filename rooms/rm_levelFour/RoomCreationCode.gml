@@ -13,3 +13,10 @@ instance_create_layer(-1248, 0, "Loading", obj_loadingEnd);
 /// @DnDArgument : "code" "obj_player.curr_upgrades = upgrades.light$(13_10)obj_player.upgradesShots = 1;"
 obj_player.curr_upgrades = upgrades.light
 obj_player.upgradesShots = 1;
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 355CC2FE
+/// @DnDArgument : "soundid" "snd_eerieMusic"
+/// @DnDSaveInfo : "soundid" "bee14da2-9ba9-41ca-a01f-fc3a9f656683"
+audio_play_sound(snd_eerieMusic, 0, 0);

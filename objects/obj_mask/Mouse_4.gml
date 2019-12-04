@@ -15,25 +15,23 @@ if(canShoot == true)
 	
 	tempDirection = point_direction(obj_player.x , obj_player.y, mouse_x, mouse_y);
 	
-	if (tempDirection >= 333.7 || tempDirection < 22.5){
+	if (tempDirection >= 315 || tempDirection < 45){
 		with (obj_player) { setSprite = spr_playerThrowR; image_speed = 3}
-	} else if (tempDirection < 67.5){
-		with (obj_player) { setSprite = spr_playerUR; }
-	} else if (tempDirection < 112.5){
+		
+	} else if (tempDirection < 135){
 		with (obj_player) { setSprite = spr_playerThrowU; image_speed = 3}
-	} else if (tempDirection < 157.5){
-		with (obj_player) { setSprite = spr_playerUL; }
-	} else if (tempDirection < 202.5){
+		
+	} else if (tempDirection < 225){
 		with (obj_player) { setSprite = spr_playerThrowL; image_speed = 3}
-	} else if (tempDirection < 247.5){
-		with (obj_player) { setSprite = spr_playerDL; }
-	} else if (tempDirection < 292.5){
+		
+	} else if (tempDirection < 315){
 		with (obj_player) { setSprite = spr_playerThrowD; image_speed = 3}
-	} else if (tempDirection < 337.5){
-		with (obj_player) { setSprite = spr_playerDR; }
+		
 	}
 
 	alarm_set(5, 30);
 
 	canShoot = false;
+	
+	audio_play_sound(snd_throw, 1, false)
 }
