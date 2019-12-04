@@ -17,7 +17,7 @@ if(x <= -1216)
 	/// @DnDVersion : 1
 	/// @DnDHash : 4E62D33A
 	/// @DnDParent : 52888453
-	/// @DnDArgument : "code" "startDraw = true;$(13_10)$(13_10)switch (room){$(13_10)	case rm_menu:	$(13_10)					levelNumber = 1;$(13_10)					nextRoom = rm_levelOne;$(13_10)					levelEnemies[1,0] = spr_penguin1D;$(13_10)					levelEnemies[1,1] = spr_penguin1D;$(13_10)					break;$(13_10)	case rm_levelOne:	$(13_10)					levelNumber = 2;$(13_10)					nextRoom = rm_levelTwo;$(13_10)					levelEnemies[2,0] = spr_penguin1D;$(13_10)					levelEnemies[2,1] = spr_penguin2D;$(13_10)					break;$(13_10)	case rm_levelTwo:$(13_10)					levelNumber = 3;$(13_10)					nextRoom = rm_levelThree;$(13_10)					levelEnemies[3,0] = spr_penguin1D;$(13_10)					levelEnemies[3,1] = spr_penguin1D;$(13_10)					levelEnemies[3,2] = spr_penguin1D;$(13_10)					levelEnemies[3,3] = spr_penguin1D;$(13_10)					levelEnemies[3,4] = spr_penguin3D;$(13_10)					break;$(13_10)	case rm_levelThree:$(13_10)					levelNumber = 4;$(13_10)					nextRoom = rm_levelFour;$(13_10)					levelEnemies[4,0] = spr_penguin1D;$(13_10)					levelEnemies[4,1] = spr_penguin1D;$(13_10)					levelEnemies[4,2] = spr_penguin3D;$(13_10)					levelEnemies[4,3] = spr_penguin3D;$(13_10)					break;$(13_10)}"
+	/// @DnDArgument : "code" "startDraw = true;$(13_10)$(13_10)switch (room){$(13_10)	case rm_menu:	$(13_10)					levelNumber = 1;$(13_10)					nextRoom = rm_levelOne;$(13_10)					levelEnemies[1,0] = spr_penguin1D;$(13_10)					levelEnemies[1,1] = spr_penguin1D;$(13_10)					break;$(13_10)	case rm_levelOne:	$(13_10)					levelNumber = 2;$(13_10)					nextRoom = rm_levelTwo;$(13_10)					levelEnemies[2,0] = spr_penguin1D;$(13_10)					levelEnemies[2,1] = spr_penguin2D;$(13_10)					break;$(13_10)	case rm_levelTwo:$(13_10)					levelNumber = 3;$(13_10)					nextRoom = rm_levelThree;$(13_10)					levelEnemies[3,0] = spr_penguin1D;$(13_10)					levelEnemies[3,1] = spr_penguin1D;$(13_10)					levelEnemies[3,2] = spr_penguin1D;$(13_10)					levelEnemies[3,3] = spr_penguin1D;$(13_10)					levelEnemies[3,4] = spr_penguin3D;$(13_10)					break;$(13_10)	case rm_levelThree:$(13_10)					levelNumber = 4;$(13_10)					nextRoom = rm_levelFour;$(13_10)					levelEnemies[4,0] = spr_penguin1D;$(13_10)					levelEnemies[4,1] = spr_penguin1D;$(13_10)					levelEnemies[4,2] = spr_penguin3D;$(13_10)					levelEnemies[4,3] = spr_penguin3D;$(13_10)					break;$(13_10)	case rm_levelFour:$(13_10)					levelNumber = 5;$(13_10)					nextRoom = rm_BossFight;$(13_10)					levelEnemies[5,0] = spr_penguinSanta;$(13_10)					break;$(13_10)}"
 	startDraw = true;
 	
 	switch (room){
@@ -49,6 +49,11 @@ if(x <= -1216)
 						levelEnemies[4,1] = spr_penguin1D;
 						levelEnemies[4,2] = spr_penguin3D;
 						levelEnemies[4,3] = spr_penguin3D;
+						break;
+		case rm_levelFour:
+						levelNumber = 5;
+						nextRoom = rm_BossFight;
+						levelEnemies[5,0] = spr_penguinSanta;
 						break;
 	}
 }

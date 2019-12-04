@@ -17,5 +17,15 @@ if (instance_exists(obj_firePlace))
 	draw_sprite(spr_light, 0, obj_firePlace.x, obj_firePlace.y )
 }
 
+if (instance_exists(obj_infiniButton))
+{
+	draw_sprite(spr_lightButton, 0, obj_infiniButton.x,  obj_infiniButton.y )
+}
+
+if (instance_exists(obj_skipButton))
+{
+	draw_sprite(spr_lightButton, 0, obj_skipButton.x, obj_skipButton.y )
+}
+
 surface_reset_target();
 gpu_set_blendmode(bm_normal);

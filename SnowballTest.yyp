@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "38937a31-049b-4a07-a4c8-7a56970a627e",
+            "Value": {
+                "id": "5cc2612d-fa4f-4dce-9c19-70445aef0385",
+                "resourcePath": "sprites\\spr_lightButton\\spr_lightButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3a601462-81dc-41a0-9408-2321d9c5b7dc",
             "Value": {
                 "id": "f694c761-7193-4374-a358-70a63c659ce9",
@@ -563,6 +571,14 @@
             "Value": {
                 "id": "9702e11c-0d38-4560-8705-4368fd4e6c9c",
                 "resourcePath": "sprites\/spr_penguin1_throwU\/spr_penguin1_throwU.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8198462b-9220-437a-b773-0dbf42bd50c9",
+            "Value": {
+                "id": "19862d05-5b0a-45f8-ab57-b0c3dcacf871",
+                "resourcePath": "sprites\\spr_penguinSanta\\spr_penguinSanta.yy",
                 "resourceType": "GMSprite"
             }
         },

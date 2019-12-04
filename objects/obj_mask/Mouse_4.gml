@@ -1,4 +1,4 @@
-if(canShoot == true)
+if(canShoot == true && instance_exists(obj_player))
 {
 	
 	switch(obj_player.curr_upgrades){
