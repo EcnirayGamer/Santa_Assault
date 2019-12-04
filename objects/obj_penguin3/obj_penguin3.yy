@@ -36,7 +36,24 @@
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
+    "overriddenProperties": [
+        {
+            "id": "ac3c0adf-6b22-4141-8819-e072f7bb7113",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "7e679fe1-18aa-497b-89a7-05acfe23dbd3",
+            "propertyId": "013219dc-dbb6-4131-b0d2-5d182fc1db4e",
+            "value": "spr_penguin3_throwU"
+        },
+        {
+            "id": "d28c7f73-48fb-4341-ad52-df5a1254a30b",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "7e679fe1-18aa-497b-89a7-05acfe23dbd3",
+            "propertyId": "289374aa-9c3a-4dac-a664-b29072c42f38",
+            "value": "spr_penguin3_throwD"
+        }
+    ],
     "parentObjectId": "7e679fe1-18aa-497b-89a7-05acfe23dbd3",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -53,6 +70,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "94eefe59-f99d-4519-bccd-2892ebb49ea5",
+    "spriteId": "16d8a555-dc25-413f-a73b-df8f0c79a22f",
     "visible": true
 }

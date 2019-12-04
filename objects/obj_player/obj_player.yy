@@ -85,23 +85,13 @@
             "m_owner": "d437afd5-5f3f-495b-adcf-d6df5f5f0aa4"
         },
         {
-            "id": "4aa86ed2-258d-4a02-ae34-d00da8f7dc6f",
+            "id": "03bf2fe5-81e4-4b73-8866-2a1d1105817f",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "IsDnD": true,
+            "collisionObjectId": "3a601462-81dc-41a0-9408-2321d9c5b7dc",
             "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "d437afd5-5f3f-495b-adcf-d6df5f5f0aa4"
-        },
-        {
-            "id": "12d6b4bc-aaa2-4cc1-b2a1-47e17825b5cb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 2,
+            "eventtype": 4,
             "m_owner": "d437afd5-5f3f-495b-adcf-d6df5f5f0aa4"
         }
     ],
@@ -151,7 +141,7 @@
             "varType": 1
         },
         {
-            "id": "931d82fb-6a06-432c-ad44-5e0856e8ab35",
+            "id": "071739d2-663e-4141-837a-408a9ffbaac0",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -160,12 +150,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "False",
-            "varName": "hitMech",
-            "varType": 3
+            "value": "0",
+            "varName": "flashAlpha",
+            "varType": 0
         },
         {
-            "id": "afd52b05-d7f0-46a5-b243-7fe9ed3aa1ee",
+            "id": "93a43af5-4c43-4c27-aa44-2491460aaea4",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -174,9 +164,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "True",
-            "varName": "hitAvaliable",
-            "varType": 3
+            "value": "c_white",
+            "varName": "flashColor",
+            "varType": 7
         }
     ],
     "solid": true,

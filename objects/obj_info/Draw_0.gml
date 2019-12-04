@@ -1,5 +1,6 @@
 if (global.num_enemies == 0){
 	draw_text(room_width/2, room_height/2, "Level Complete")
+	health = 100;
 		if (!alarm[1])
 		alarm[1] = 150;
 }
