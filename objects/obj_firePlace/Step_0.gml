@@ -1,3 +1,4 @@
+if (instance_exists(obj_player)){
 range = distance_to_object(obj_player);
 
 if range < 100 && health < 100{
@@ -17,3 +18,7 @@ if range < 100 && health < 100{
 if used {
 	instance_destroy();
 }
+
+
+}
+

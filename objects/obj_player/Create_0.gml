@@ -1,6 +1,6 @@
 enum upgrades {
 	none,
-	BFS,
+	light,
 	fastBall,
 	heatSeeking,
 }

@@ -9,4 +9,8 @@ if (flashAlpha > 0)
 					image_yscale, image_angle, flashColor, flashAlpha)
 
 	shader_reset();
+	 if (flashAlpha == 0)
+	 {
+		 flashColor = c_white;
+	 }
 }

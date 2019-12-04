@@ -8,20 +8,10 @@
             "id": "e0c5692a-cd2a-4e05-aea2-d930432a8f99",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "896596d4-26f9-433e-b529-2bfa729fa9cb"
-        },
-        {
-            "id": "5e842c3c-5302-456a-98c3-aca4b3a37263",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
             "m_owner": "896596d4-26f9-433e-b529-2bfa729fa9cb"
         },
         {
@@ -151,7 +141,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "3",
             "varName": "maxBounceCount",
             "varType": 1
         },
@@ -167,6 +157,20 @@
             "resourceFilter": 1023,
             "value": "10",
             "varName": "damage",
+            "varType": 1
+        },
+        {
+            "id": "8b5e74f2-9fb5-4233-804f-f92316c124df",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "setSpeed",
             "varType": 1
         }
     ],
