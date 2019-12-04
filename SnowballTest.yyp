@@ -143,14 +143,6 @@
             }
         },
         {
-            "Key": "2cf93a67-ec5b-4952-ab32-672ac90477fa",
-            "Value": {
-                "id": "c27d53cd-d917-4627-a15d-f411d0779446",
-                "resourcePath": "views\\2cf93a67-ec5b-4952-ab32-672ac90477fa.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "2d66922e-ce5b-4c85-b7d7-82ca90d1b433",
             "Value": {
                 "id": "c760e2bc-bac5-4b9d-bdb2-83b5b39f7069",
@@ -268,6 +260,22 @@
                 "id": "b37c00b1-3ce6-43e8-9b33-65a8247436af",
                 "resourcePath": "sprites\/spr_playerD\/spr_playerD.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "44b38984-6f7f-48f4-9363-02965c174a89",
+            "Value": {
+                "id": "ea48025e-6213-482a-9eec-636fd031e994",
+                "resourcePath": "views\/44b38984-6f7f-48f4-9363-02965c174a89.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "46b8e4ee-63c4-4b51-81e5-9b318016e1a4",
+            "Value": {
+                "id": "8571359f-deaf-4d6d-8d95-4294fb65b666",
+                "resourcePath": "objects\/obj_gameController\/obj_gameController.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -559,6 +567,14 @@
             }
         },
         {
+            "Key": "9383f537-a1d5-4d03-bd43-9ac6e032aa4d",
+            "Value": {
+                "id": "1c660514-d39b-4fbd-8017-efca1af2ac7c",
+                "resourcePath": "objects\\obj_enemyFastBall\\obj_enemyFastBall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9463ae3a-3fda-4532-b183-c0868f7d2718",
             "Value": {
                 "id": "22051fa3-8e50-4120-8316-69cb47828dde",
@@ -767,10 +783,10 @@
             }
         },
         {
-            "Key": "d6ef9cc7-963a-4b92-8ba1-63526c56c8e4",
+            "Key": "d437afd5-5f3f-495b-adcf-d6df5f5f0aa4",
             "Value": {
-                "id": "8fb03c1d-0e8b-460e-9a46-68f63361e0f9",
-                "resourcePath": "objects\/obj_enemyBFS\/obj_enemyBFS.yy",
+                "id": "b611f59c-788d-43e9-aeb0-19e63553d397",
+                "resourcePath": "objects\/obj_player\/obj_player.yy",
                 "resourceType": "GMObject"
             }
         },

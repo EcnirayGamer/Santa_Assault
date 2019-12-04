@@ -7,6 +7,6 @@ else
 	direction = point_direction(x, y, 180, 0);
 }
 
-speed = 7;
+speed = 25;
 bounceCount = 0;
 maxBounceCount = 1;

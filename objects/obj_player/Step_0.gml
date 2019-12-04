@@ -14,8 +14,3 @@ if (sprite_index != setSprite)
 	sprite_index = setSprite
 	image_index = 0;
 }
-
-if hitMech == true  && hitAvaliable == true {
-	alarm[0] = 120;
-	alarm[1] = 300
-}

@@ -1,63 +1,53 @@
 {
-    "id": "84377868-e1a7-4dc3-8f4a-2450d4916e69",
+    "id": "8b73541b-95f7-4698-87a1-9e61a05c4102",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_fastBall",
+    "name": "obj_heatSeeking1",
     "eventList": [
         {
-            "id": "7f8614ba-52d8-4eee-9612-14a413c15024",
+            "id": "a821df19-e757-4eed-b30c-7ef2be208ee3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "84377868-e1a7-4dc3-8f4a-2450d4916e69"
+            "m_owner": "8b73541b-95f7-4698-87a1-9e61a05c4102"
         },
         {
-            "id": "859fab43-d2c6-4c9d-96e3-90d5de981d1c",
+            "id": "1ad891d6-fd20-4d9e-8eba-72f1ee91be9d",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": false,
+            "IsDnD": true,
             "collisionObjectId": "7d681c05-93f4-4605-bc4c-d6802d3aa094",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "84377868-e1a7-4dc3-8f4a-2450d4916e69"
+            "m_owner": "8b73541b-95f7-4698-87a1-9e61a05c4102"
         },
         {
-            "id": "484196ee-60c7-4096-ad1b-b0f57924518c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "84377868-e1a7-4dc3-8f4a-2450d4916e69"
-        },
-        {
-            "id": "6e2a8fac-11b0-4bef-a136-0a3dad00bb94",
+            "id": "3fa92329-775b-4e02-98eb-f9eaeba50ef0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "7e679fe1-18aa-497b-89a7-05acfe23dbd3",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "84377868-e1a7-4dc3-8f4a-2450d4916e69"
+            "m_owner": "8b73541b-95f7-4698-87a1-9e61a05c4102"
         },
         {
-            "id": "167f1b27-3db4-4a35-a67b-b18d1677a900",
+            "id": "4e926de9-ff4d-45c3-a860-bfadb36eb9cf",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "c373d241-4897-4150-b999-62df120a76b6",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "84377868-e1a7-4dc3-8f4a-2450d4916e69"
+            "eventtype": 3,
+            "m_owner": "8b73541b-95f7-4698-87a1-9e61a05c4102"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "896596d4-26f9-433e-b529-2bfa729fa9cb",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0,
     "physicsDensity": 1,
@@ -71,14 +61,14 @@
     "physicsShape": 0,
     "physicsShapePoints": [
         {
-            "id": "c0d9227a-24b8-4377-9c7a-99b5c80be59b",
+            "id": "80d0401e-1f55-4fea-8187-933602e5771f",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 32,
             "y": 33
         },
         {
-            "id": "55a21ca9-006b-48f4-9c6c-77800259e6ae",
+            "id": "b68614f5-245d-4d36-9d03-e8813c425965",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 17,
@@ -88,7 +78,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "94c8caac-b89e-47c3-a8b9-eec09ac80bd6",
+            "id": "cf84e1c3-b483-446c-9834-7de0fac10cf5",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -102,7 +92,7 @@
             "varType": 1
         },
         {
-            "id": "0fc6fd47-008e-47c1-b518-451399ee257e",
+            "id": "21cd71b2-5ca1-4820-8562-85af18c9e491",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -111,12 +101,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "1",
             "varName": "maxBounceCount",
             "varType": 1
         }
     ],
     "solid": false,
-    "spriteId": "9a1a5f18-a937-4601-9f04-d00d0c02fe27",
+    "spriteId": "3e5e4b28-0da0-4d5a-b39a-37cd9246ab25",
     "visible": true
 }

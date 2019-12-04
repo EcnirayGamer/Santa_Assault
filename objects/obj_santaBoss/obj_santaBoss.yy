@@ -92,7 +92,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "200",
+            "value": "150",
             "varName": "bossHealth",
             "varType": 1
         },
@@ -135,7 +135,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "True",
-            "varName": "canShootBFS",
+            "varName": "canShootFastBall",
             "varType": 3
         },
         {

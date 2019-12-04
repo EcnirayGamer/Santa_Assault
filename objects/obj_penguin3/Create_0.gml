@@ -1,12 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 4F72F9BB
-/// @DnDArgument : "code" "enum state{$(13_10)	waddling,$(13_10)	chasing,$(13_10)	returning$(13_10)}"
-enum state{
-	waddling,
-	chasing,
-	returning
-}
+/// @DnDArgument : "code" ""
+
 
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1

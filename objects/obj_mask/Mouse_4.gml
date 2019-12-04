@@ -11,7 +11,7 @@ if(canShoot == true)
 		default: ballToShoot = obj_snowball;
 	}
 	
-	instance_create_layer(x + obj_player.x, y + obj_player.y, "Instances", ballToShoot);
+	instance_create_layer(obj_player.x, obj_player.y, "Instances", ballToShoot);
 	
 	tempDirection = point_direction(obj_player.x , obj_player.y, mouse_x, mouse_y);
 	

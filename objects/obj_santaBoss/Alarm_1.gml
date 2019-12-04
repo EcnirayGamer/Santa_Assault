@@ -1,1 +1,1 @@
-canShootBFS = true
+canShootFastBall = true

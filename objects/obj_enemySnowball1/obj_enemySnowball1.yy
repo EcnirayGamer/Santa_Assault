@@ -2,7 +2,7 @@
     "id": "d6ef9cc7-963a-4b92-8ba1-63526c56c8e4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_enemyBFS",
+    "name": "obj_enemySnowball1",
     "eventList": [
         {
             "id": "9602832f-10c9-4e2a-9848-00982980ee8a",
@@ -62,12 +62,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "-20",
+            "value": "-10",
             "varName": "damage",
             "varType": 1
         }
     ],
     "solid": false,
-    "spriteId": "e6293172-f994-426f-a1dc-2eba360637ab",
+    "spriteId": "54d5e26a-f38d-41a5-9edc-ead466661653",
     "visible": true
 }

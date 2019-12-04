@@ -1,1 +1,0 @@
-hitAvaliable = true
