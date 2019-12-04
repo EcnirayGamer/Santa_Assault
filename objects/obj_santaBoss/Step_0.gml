@@ -14,6 +14,7 @@ if global.bossStage == Stages.stage1 && canShoot == true {
 			direction = 315;
 		}
 	#endregion
+	sprite_index = spr_santa_throwing
 	if(bossHealth <= 0){
 		global.bossStage = Stages.stage2;
 		bossHealth = 200 

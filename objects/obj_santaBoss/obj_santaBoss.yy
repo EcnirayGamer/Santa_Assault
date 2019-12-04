@@ -63,6 +63,36 @@
             "enumb": 3,
             "eventtype": 2,
             "m_owner": "c373d241-4897-4150-b999-62df120a76b6"
+        },
+        {
+            "id": "65bff8db-e2ce-42a5-b78e-f409b52a786a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "c373d241-4897-4150-b999-62df120a76b6"
+        },
+        {
+            "id": "2918172e-7c76-4505-97b0-afbedf3d55e2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "896596d4-26f9-433e-b529-2bfa729fa9cb",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "c373d241-4897-4150-b999-62df120a76b6"
+        },
+        {
+            "id": "10289376-475f-4774-80e1-b0ce3b24c692",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 7,
+            "m_owner": "c373d241-4897-4150-b999-62df120a76b6"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -165,9 +195,37 @@
             "value": "True",
             "varName": "canShootDefence",
             "varType": 3
+        },
+        {
+            "id": "e1028b08-8bac-4557-a2eb-41ee69d562f9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "flashAlpha",
+            "varType": 1
+        },
+        {
+            "id": "431b26c8-b3fa-45a7-9214-b892440ffabe",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "c_red",
+            "varName": "flashColor",
+            "varType": 7
         }
     ],
     "solid": false,
-    "spriteId": "7a7cbd25-4503-4211-9cf2-5a44b40cef33",
+    "spriteId": "8198462b-9220-437a-b773-0dbf42bd50c9",
     "visible": true
 }

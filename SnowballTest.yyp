@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "565fa8c9-65e7-45c3-b0e7-31807aef0785",
+            "Value": {
+                "id": "82f25410-3006-45a2-a75e-a6af850b83d7",
+                "resourcePath": "sprites\\spr_santa_throwing\\spr_santa_throwing.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "56d912c0-d401-492c-84c5-a6f9f4612d50",
             "Value": {
                 "id": "806a036a-dc96-4aa6-89b6-9b40d49f3be9",
