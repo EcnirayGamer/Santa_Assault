@@ -11,5 +11,6 @@ instance_create_layer(-1248, 0, "Loading", obj_loadingEnd);
 /// @DnDVersion : 1
 /// @DnDHash : 72199F28
 /// @DnDArgument : "soundid" "snd_music"
+/// @DnDArgument : "loop" "1"
 /// @DnDSaveInfo : "soundid" "3546b5dd-2ee3-4029-954f-ebfaa49c4d8f"
-audio_play_sound(snd_music, 0, 0);
+audio_play_sound(snd_music, 0, 1);

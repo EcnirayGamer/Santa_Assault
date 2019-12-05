@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "3c22c721-3b48-4524-87b9-9073b7515340",
+            "Value": {
+                "id": "778f611d-a770-4a9c-b64c-88972e4f56b5",
+                "resourcePath": "objects\\obj_endScreen\\obj_endScreen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3e5e4b28-0da0-4d5a-b39a-37cd9246ab25",
             "Value": {
                 "id": "00b67aa0-213e-4d0e-8108-5c05cb0631a1",
@@ -484,6 +492,14 @@
                 "id": "d3f83f37-47bc-4bc8-aa6f-33691f8b1950",
                 "resourcePath": "sprites\/spr_quitButton\/spr_quitButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6bde87d4-a18b-4e3b-b89b-3cbca9169919",
+            "Value": {
+                "id": "dc0ebe90-666b-4a4f-87a2-ca9f11764c9a",
+                "resourcePath": "objects\\obj_restartButton\\obj_restartButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -919,11 +935,27 @@
             }
         },
         {
+            "Key": "cbb4036f-eb60-442b-b0a8-d4b512533c8c",
+            "Value": {
+                "id": "454c3845-5526-4608-8d2b-3032637ce413",
+                "resourcePath": "sounds\\snd_bossMusic\\snd_bossMusic.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "b6c409e4-ff34-4ca7-9119-0d5e03f23638",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce81a225-a3ab-4afd-a497-1472859a428e",
+            "Value": {
+                "id": "a991ddf3-527c-4b0e-bb06-10c1748919fc",
+                "resourcePath": "rooms\\rm_Winner\\rm_Winner.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
