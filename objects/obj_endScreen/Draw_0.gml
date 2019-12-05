@@ -8,18 +8,18 @@ draw_set_font(fnt_menu);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 510ECED7
-/// @DnDArgument : "x" "600"
+/// @DnDArgument : "x" "1000"
 /// @DnDArgument : "y" "150"
 /// @DnDArgument : "caption" ""Congratulations!""
-draw_text(600, 150, string("Congratulations!") + "");
+draw_text(1000, 150, string("Congratulations!") + "");
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 1079642E
-/// @DnDArgument : "x" "850"
+/// @DnDArgument : "x" "1000"
 /// @DnDArgument : "y" "300"
 /// @DnDArgument : "caption" ""You Win ""
-draw_text(850, 300, string("You Win ") + "");
+draw_text(1000, 300, string("You Win ") + "");
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1
