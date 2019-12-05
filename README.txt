@@ -6,3 +6,9 @@ Snowballs can be bounce off walls and some walls are breakable. Complete levels 
 
 Cheat Codes:
 
+Ctrl to toggle on debugger. This gives player access to skip level and infinite upgrade buttons. Press R while the debugger is 
+open to restart the level. 
+
+While on boss level, pressing the B key will skip to the next stage of the battle
+
+Press F4 to end the game at any time
