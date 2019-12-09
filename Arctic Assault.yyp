@@ -495,14 +495,6 @@
             }
         },
         {
-            "Key": "6bde87d4-a18b-4e3b-b89b-3cbca9169919",
-            "Value": {
-                "id": "dc0ebe90-666b-4a4f-87a2-ca9f11764c9a",
-                "resourcePath": "objects\\obj_restartButton\\obj_restartButton.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "70d361fb-cd0f-4ac2-8e07-ccdd3395b5b2",
             "Value": {
                 "id": "afa53e20-8d95-4373-b730-c0f6599e355c",
@@ -660,14 +652,6 @@
                 "id": "afecdab1-0d23-4a20-9b3b-a982dee6a296",
                 "resourcePath": "objects\/obj_enemyHeatSeeking\/obj_enemyHeatSeeking.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "8d62ba2a-18b8-462e-8bdb-5a58425e608a",
-            "Value": {
-                "id": "84230976-1647-4374-aeed-f4010aae7cff",
-                "resourcePath": "sprites\/spr_fence\/spr_fence.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -860,14 +844,6 @@
                 "id": "366b8edb-0840-4d03-be21-dcd6376c37b4",
                 "resourcePath": "sounds\\snd_throw\\snd_throw.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "ba9894f2-69e4-46fa-9709-7a6738530ed5",
-            "Value": {
-                "id": "56b88853-63cd-4573-802e-05a6469e702c",
-                "resourcePath": "objects\/obj_fence\/obj_fence.yy",
-                "resourceType": "GMObject"
             }
         },
         {

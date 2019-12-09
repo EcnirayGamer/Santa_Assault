@@ -8,7 +8,7 @@
             "id": "ed9c037b-d930-4947-9bef-864784a477a6",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
@@ -18,7 +18,7 @@
             "id": "087ebe34-b90e-4d94-9fb6-6a22979511cd",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
@@ -38,10 +38,20 @@
             "id": "30c44986-25fb-4ebc-a0ee-765539536d50",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 2,
+            "m_owner": "2525cb66-f08a-43ca-974a-f2df9e0bf984"
+        },
+        {
+            "id": "97cdc8ce-ebe9-481a-b73c-4258d7a33691",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
             "m_owner": "2525cb66-f08a-43ca-974a-f2df9e0bf984"
         }
     ],
@@ -70,6 +80,14 @@
             "objectId": "7e679fe1-18aa-497b-89a7-05acfe23dbd3",
             "propertyId": "289374aa-9c3a-4dac-a664-b29072c42f38",
             "value": "spr_penguin2_throwD"
+        },
+        {
+            "id": "b0296ba5-c5c8-4342-b299-c8590cded71f",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "7e679fe1-18aa-497b-89a7-05acfe23dbd3",
+            "propertyId": "8d16323f-d3b7-4ed2-9ea2-80244864a6e4",
+            "value": "spr_penguin2D"
         }
     ],
     "parentObjectId": "7e679fe1-18aa-497b-89a7-05acfe23dbd3",

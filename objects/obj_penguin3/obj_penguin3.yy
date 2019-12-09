@@ -62,6 +62,14 @@
             "objectId": "7e679fe1-18aa-497b-89a7-05acfe23dbd3",
             "propertyId": "289374aa-9c3a-4dac-a664-b29072c42f38",
             "value": "spr_penguin3_throwD"
+        },
+        {
+            "id": "2899f807-2d4c-4de6-908a-27d4d3a280cc",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "7e679fe1-18aa-497b-89a7-05acfe23dbd3",
+            "propertyId": "8d16323f-d3b7-4ed2-9ea2-80244864a6e4",
+            "value": "spr_penguin3D"
         }
     ],
     "parentObjectId": "7e679fe1-18aa-497b-89a7-05acfe23dbd3",

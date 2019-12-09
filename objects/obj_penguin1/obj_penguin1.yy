@@ -158,7 +158,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "noone",
+            "value": "spr_penguin1D",
             "varName": "currSprite",
             "varType": 5
         },
